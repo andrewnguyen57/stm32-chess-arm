@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="RhV731bfJKPFtCYIVtF9">
+    <mxGraphModel dx="1201" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="500" width="620" x="115" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-10" edge="1" parent="1" source="KGx-IMEVmw_aQNvs6WSj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KGx-IMEVmw_aQNvs6WSj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;APPLICATION&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;i&gt;Chess Engine, Computer Vision, Commands&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="217" x="317" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-11" edge="1" parent="1" source="KGx-IMEVmw_aQNvs6WSj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KGx-IMEVmw_aQNvs6WSj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;KINEMATICS&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;i&gt;Inverse Kinematics&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="217" x="317" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-12" edge="1" parent="1" source="KGx-IMEVmw_aQNvs6WSj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KGx-IMEVmw_aQNvs6WSj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;JOINT&lt;/b&gt;&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Position, Limits, Homing, Gear Ratio&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="217" x="317" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-13" edge="1" parent="1" source="KGx-IMEVmw_aQNvs6WSj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KGx-IMEVmw_aQNvs6WSj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;STEPPER&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Motor Position, Velocity, Acceleration&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="217" x="317" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-14" edge="1" parent="1" source="KGx-IMEVmw_aQNvs6WSj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KGx-IMEVmw_aQNvs6WSj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;glass=0;" value="&lt;b&gt;TMC5160 DRIVER&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Registers, Configuration, Status&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="217" x="317" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-15" edge="1" parent="1" source="KGx-IMEVmw_aQNvs6WSj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KGx-IMEVmw_aQNvs6WSj-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;STM32 HAL&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;i&gt;SPI, GPIO&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="217" x="317" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-7" edge="1" parent="1" source="KGx-IMEVmw_aQNvs6WSj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KGx-IMEVmw_aQNvs6WSj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;HARDWARE&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="217" x="317" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="120" width="270" x="290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="300" width="270" x="290.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;STM32&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="KGx-IMEVmw_aQNvs6WSj-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;RASPBERRY PI&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="280" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
