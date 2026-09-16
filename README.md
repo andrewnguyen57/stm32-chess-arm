@@ -26,7 +26,9 @@ The project covers firmware architecture, motion control, unit conversions, hard
 
 ## Firmware
 
-The firmware is five layers. Each layer speaks in one set of units and never reaches past the layer directly beneath it.
+The firmware is five layers. Each layer speaks in one set of units and never reaches past the layer directly beneath it:
+ - The first layer is the [TMC5160 Drivers](https://github.com/andrewnguyen57/stm32-tmc5160-driver), it speaks directly to the driver's registers via SPI communication.
+ - The second layer is the [Stepper Motor Driver](https://github.com/andrewnguyen57/stepper-motor-driver), it converts register values to scientific units for ease of use.
 
 <p align="center">
   <img src="docs/images/firmware.png" alt="Firmware" width="60%">
@@ -38,19 +40,20 @@ motor-control interfaces, communication, sensing, and power distribution
 for the robotic arm.
 
 ### Control Board
+Rev. 2
 <p align="center">
-  <img src="docs/images/pcb-3d.png" alt="Control Board 3D" width="49%">
-  <img src="docs/images/pcb-2d.png" alt="Control Board 2D" width="49%">
+  <img src="docs/images/pcb-3d_rev2.png" alt="Control Board 3D" width="49%">
+  <img src="docs/images/pcb-2d_rev2.png" alt="Control Board 2D" width="49%">
 </p>
 
 ### Schematics
 <p align="center">Power & Protection</p>
 <p align="center">
-  <img src="docs/images/power-schematic.png" alt="Power Schematic" width="60%">
+  <img src="docs/images/power-schematic_rev2.png" alt="Power Schematic" width="60%">
 </p>
 <p align="center">MCU & Logic</p>
 <p align="center">
-  <img src="docs/images/logic-schematic.png" alt="Logic Schematic" width="60%">
+  <img src="docs/images/logic-schematic_rev2.png" alt="Logic Schematic" width="60%">
 </p>
 <p align="center">Motor Control</p>
 <p align="center">
@@ -62,14 +65,17 @@ for the robotic arm.
 | Part | Purpose |
 |------|---------|
 | STM32F407VET6 | Main MCU and real-time motion control |
-| TMC5160 ×6 | Stepper motor drivers, one per joint |
+| NEMA 17 | Stepper motors |
+| TMC5160 | Stepper motor drivers |
 | SiC437 | 24 V to 5 V buck converter |
-| AMS1117-3.3 | 5 V to 3.3 V logic supply |
+| AMS1117-3.3 | 5 V to 3.3 V logic regulator |
 | CAT24C256 | I²C EEPROM for calibration storage |
-| SMAJ30A | 24 V input transient suppression |
-| IRF4905 | Reverse-polarity protection |
-| BZX84C12 | MOSFET gate-source voltage clamp |
+| SMAJ30A | TVS Diode 24 V input transient suppression |
+| IRF4905 | MOSFET Reverse-polarity protection |
+| BZX84C12 | Zener diode gate-source voltage clamp |
 | 8 MHz crystal | HSE clock source |
+| IRLML0060TRPBF | MOSFET fan control switching |
+| SS16 | Diode fan controller protection  |
 | Fuse | Input overcurrent protection |
 
 ## Mechanical Design
