@@ -43,6 +43,7 @@ for the robotic arm.
 <p align="center">
   <img src="docs/images/prototype-breadboard.jpeg" alt="Prototype Board" width="80%">
 </p>
+
 ### Control Board
 Rev. 2
 <p align="center">
