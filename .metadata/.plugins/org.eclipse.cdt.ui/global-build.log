@@ -1,0 +1,1437 @@
+09:02:25 **** Clean-only build of configuration Debug for project stepper_motor_test ****
+make -j20 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su
+rm -rf ./Core/Startup/startup_stm32f446retx.d ./Core/Startup/startup_stm32f446retx.o
+rm -rf ./Core/Src/Joint.cyclo ./Core/Src/Joint.d ./Core/Src/Joint.o ./Core/Src/Joint.su ./Core/Src/Stepper.cyclo ./Core/Src/Stepper.d ./Core/Src/Stepper.o ./Core/Src/Stepper.su ./Core/Src/TMC5160.cyclo ./Core/Src/TMC5160.d ./Core/Src/TMC5160.o ./Core/Src/TMC5160.su ./Core/Src/TMC5160_SPI.cyclo ./Core/Src/TMC5160_SPI.d ./Core/Src/TMC5160_SPI.o ./Core/Src/TMC5160_SPI.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf default.size.stdout stepper_motor_test.elf stepper_motor_test.list stepper_motor_test.map
+ 
+09:02:29 **** Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f446retx.d" -MT"Core/Startup/startup_stm32f446retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f446retx.o" "../Core/Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/Stepper.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Stepper.d" -MT"Core/Src/Stepper.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Stepper.o"
+arm-none-eabi-gcc "../Core/Src/TMC5160.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TMC5160.d" -MT"Core/Src/TMC5160.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TMC5160.o"
+arm-none-eabi-gcc "../Core/Src/TMC5160_SPI.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TMC5160_SPI.d" -MT"Core/Src/TMC5160_SPI.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TMC5160_SPI.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  17780	     60	   2324	  20164	   4ec4	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+09:12:36 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17780	     60	   2324	  20164	   4ec4	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+09:24:44 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:130:31: error: invalid type argument of '->' (have 'Joint_TypeDef')
+  130 |           Stepper_PrintDiag(&j->hs, &huart2);
+      |                               ^~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+09:25:08 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+09:25:59 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+09:26:56 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+09:27:50 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+09:42:22 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+09:43:01 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+09:45:59 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+09:47:51 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+09:48:38 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22288	    140	   2660	  25088	   6200	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+10:33:09 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22296	    140	   2660	  25096	   6208	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+10:43:00 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22312	    140	   2660	  25112	   6218	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+10:47:30 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  21452	    140	   2660	  24252	   5ebc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:01:32 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/Stepper.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Stepper.d" -MT"Core/Src/Stepper.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Stepper.o"
+arm-none-eabi-gcc "../Core/Src/TMC5160.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TMC5160.d" -MT"Core/Src/TMC5160.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TMC5160.o"
+arm-none-eabi-gcc "../Core/Src/TMC5160_SPI.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/TMC5160_SPI.d" -MT"Core/Src/TMC5160_SPI.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/TMC5160_SPI.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  21484	    140	   2660	  24284	   5edc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:02:32 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  21484	    140	   2660	  24284	   5edc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:04:53 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  21508	    140	   2660	  24308	   5ef4	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:05:57 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  21508	    140	   2660	  24308	   5ef4	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:06:52 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  21508	    140	   2660	  24308	   5ef4	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:07:29 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/Joint.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Joint.d" -MT"Core/Src/Joint.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Joint.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  21508	    140	   2660	  24308	   5ef4	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:08:27 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22368	    140	   2660	  25168	   6250	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:27:38 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:43:56 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:46:35 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:57:48 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+12:02:50 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:05:01 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:09:02 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+12:16:16 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:16:51 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:18:48 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+12:21:16 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:22:33 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+12:22:56 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+12:23:38 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22360	    140	   2660	  25160	   6248	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:24:05 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22336	    140	   2660	  25136	   6230	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:25:09 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22336	    140	   2660	  25136	   6230	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:26:02 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22336	    140	   2660	  25136	   6230	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:31:54 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22336	    140	   2660	  25136	   6230	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:32:39 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22336	    140	   2660	  25136	   6230	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+12:33:18 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22336	    140	   2660	  25136	   6230	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+13:08:05 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22336	    140	   2660	  25136	   6230	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+13:09:35 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+13:11:00 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+13:13:22 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+13:22:19 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+13:34:20 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+13:41:40 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+13:46:22 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+13:57:08 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+13:59:06 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+14:03:53 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+15:24:25 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+15:25:32 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+15:26:35 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+15:45:14 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+15:47:21 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+16:37:25 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+16:38:00 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+16:39:01 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+16:39:53 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+18:32:19 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+18:38:10 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22508	    140	   2660	  25308	   62dc	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+18:39:48 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+18:40:01 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+18:40:48 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+18:48:31 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+10:22:28 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:94:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+   94 | Joint_TypeDef j1;
+      |               ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:20: error: 'cfg' undeclared (first use in this function); did you mean 'cfg3'?
+  147 |   Joint_Init(&j1, &cfg);
+      |                    ^~~
+      |                    cfg3
+../Core/Src/main.c:147:20: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+10:22:54 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:94:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+   94 | Joint_TypeDef j1;
+      |               ^~
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  17092	    156	   3516	  20764	   511c	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+10:34:20 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:95:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+   95 | Joint_TypeDef j1;
+      |               ^~
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  16996	     60	   2324	  19380	   4bb4	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+10:41:12 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  17896	     60	   2324	  20280	   4f38	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+10:42:43 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+10:43:19 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+10:53:44 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+10:59:22 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:00:02 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:00:19 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:09:49 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:18:09 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:20:28 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:21:23 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:22:33 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:23:00 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:25:30 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+11:28:39 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:34:11 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+11:38:34 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  22404	    140	   2660	  25204	   6274	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+19:56:51 **** Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  17144	    204	   4116	  21464	   53d8	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+19:58:02 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-size  stepper_motor_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17144	    204	   4116	  21464	   53d8	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+20:00:29 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:184:28: error: incompatible type for argument 1 of 'Stepper_MoveTo'
+  184 |           Stepper_MoveTo(j1.hs, 1000);
+      |                          ~~^~~
+      |                            |
+      |                            Stepper_TypeDef
+In file included from ../Core/Inc/Joint.h:14,
+                 from ../Core/Src/main.c:24:
+../Core/Inc/Stepper.h:223:56: note: expected 'Stepper_TypeDef *' but argument is of type 'Stepper_TypeDef'
+  223 | Stepper_Status_TypeDef Stepper_MoveTo(Stepper_TypeDef *hs, float deg);
+      |                                       ~~~~~~~~~~~~~~~~~^~
+../Core/Src/main.c:186:28: error: incompatible type for argument 1 of 'Stepper_MoveTo'
+  186 |           Stepper_MoveTo(j2.hs, 1000);
+      |                          ~~^~~
+      |                            |
+      |                            Stepper_TypeDef
+../Core/Inc/Stepper.h:223:56: note: expected 'Stepper_TypeDef *' but argument is of type 'Stepper_TypeDef'
+  223 | Stepper_Status_TypeDef Stepper_MoveTo(Stepper_TypeDef *hs, float deg);
+      |                                       ~~~~~~~~~~~~~~~~~^~
+../Core/Src/main.c:188:28: error: incompatible type for argument 1 of 'Stepper_MoveTo'
+  188 |           Stepper_MoveTo(j3.hs, 1000);
+      |                          ~~^~~
+      |                            |
+      |                            Stepper_TypeDef
+../Core/Inc/Stepper.h:223:56: note: expected 'Stepper_TypeDef *' but argument is of type 'Stepper_TypeDef'
+  223 | Stepper_Status_TypeDef Stepper_MoveTo(Stepper_TypeDef *hs, float deg);
+      |                                       ~~~~~~~~~~~~~~~~~^~
+../Core/Src/main.c:190:28: error: incompatible type for argument 1 of 'Stepper_MoveTo'
+  190 |           Stepper_MoveTo(j4.hs, 1000);
+      |                          ~~^~~
+      |                            |
+      |                            Stepper_TypeDef
+../Core/Inc/Stepper.h:223:56: note: expected 'Stepper_TypeDef *' but argument is of type 'Stepper_TypeDef'
+  223 | Stepper_Status_TypeDef Stepper_MoveTo(Stepper_TypeDef *hs, float deg);
+      |                                       ~~~~~~~~~~~~~~~~~^~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+20:01:10 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:184:28: error: invalid type argument of '->' (have 'Joint_TypeDef')
+  184 |           Stepper_MoveTo(j1->hs, 1000);
+      |                            ^~
+../Core/Src/main.c:186:28: error: invalid type argument of '->' (have 'Joint_TypeDef')
+  186 |           Stepper_MoveTo(j2->hs, 1000);
+      |                            ^~
+../Core/Src/main.c:188:28: error: invalid type argument of '->' (have 'Joint_TypeDef')
+  188 |           Stepper_MoveTo(j3->hs, 1000);
+      |                            ^~
+../Core/Src/main.c:190:28: error: invalid type argument of '->' (have 'Joint_TypeDef')
+  190 |           Stepper_MoveTo(j4->hs, 1000);
+      |                            ^~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+20:02:08 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:174:3: error: unknown type name 'Stepper_HandleTypeDef'; did you mean 'Stepper_Mode_TypeDef'?
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |   ^~~~~~~~~~~~~~~~~~~~~
+      |   Stepper_Mode_TypeDef
+../Core/Src/main.c:174:40: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                        ^
+../Core/Src/main.c:174:40: note: (near initialization for 'motors[0]')
+../Core/Src/main.c:174:48: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                ^
+../Core/Src/main.c:174:48: note: (near initialization for 'motors[1]')
+../Core/Src/main.c:174:56: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                        ^
+../Core/Src/main.c:174:56: note: (near initialization for 'motors[2]')
+../Core/Src/main.c:174:64: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                                ^
+../Core/Src/main.c:174:64: note: (near initialization for 'motors[3]')
+../Core/Src/main.c:187:38: warning: passing argument 1 of 'Stepper_MoveTo' from incompatible pointer type [-Wincompatible-pointer-types]
+  187 |                 Stepper_MoveTo(motors[i], target);
+      |                                ~~~~~~^~~
+      |                                      |
+      |                                      int *
+In file included from ../Core/Inc/Joint.h:14,
+                 from ../Core/Src/main.c:24:
+../Core/Inc/Stepper.h:223:56: note: expected 'Stepper_TypeDef *' but argument is of type 'int *'
+  223 | Stepper_Status_TypeDef Stepper_MoveTo(Stepper_TypeDef *hs, float deg);
+      |                                       ~~~~~~~~~~~~~~~~~^~
+../Core/Src/main.c:188:25: warning: implicit declaration of function 'Stepper_IsAtTarget'; did you mean 'Stepper_IsStalled'? [-Wimplicit-function-declaration]
+  188 |                 while (!Stepper_IsAtTarget(motors[i])) { }
+      |                         ^~~~~~~~~~~~~~~~~~
+      |                         Stepper_IsStalled
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+20:04:39 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:174:3: error: unknown type name 'Stepper_HandleTypeDef'; did you mean 'Stepper_Mode_TypeDef'?
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |   ^~~~~~~~~~~~~~~~~~~~~
+      |   Stepper_Mode_TypeDef
+../Core/Src/main.c:174:40: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                        ^
+../Core/Src/main.c:174:40: note: (near initialization for 'motors[0]')
+../Core/Src/main.c:174:48: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                ^
+../Core/Src/main.c:174:48: note: (near initialization for 'motors[1]')
+../Core/Src/main.c:174:56: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                        ^
+../Core/Src/main.c:174:56: note: (near initialization for 'motors[2]')
+../Core/Src/main.c:174:64: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                                ^
+../Core/Src/main.c:174:64: note: (near initialization for 'motors[3]')
+../Core/Src/main.c:187:32: warning: passing argument 1 of 'Stepper_MoveTo' from incompatible pointer type [-Wincompatible-pointer-types]
+  187 |           Stepper_MoveTo(motors[i], target);
+      |                          ~~~~~~^~~
+      |                                |
+      |                                int *
+In file included from ../Core/Inc/Joint.h:14,
+                 from ../Core/Src/main.c:24:
+../Core/Inc/Stepper.h:223:56: note: expected 'Stepper_TypeDef *' but argument is of type 'int *'
+  223 | Stepper_Status_TypeDef Stepper_MoveTo(Stepper_TypeDef *hs, float deg);
+      |                                       ~~~~~~~~~~~~~~~~~^~
+../Core/Src/main.c:188:41: warning: passing argument 1 of 'Stepper_WaitStopped' from incompatible pointer type [-Wincompatible-pointer-types]
+  188 |           if (Stepper_WaitStopped(motors[i]) != STEPPER_OK)
+      |                                   ~~~~~~^~~
+      |                                         |
+      |                                         int *
+../Core/Inc/Stepper.h:258:61: note: expected 'Stepper_TypeDef *' but argument is of type 'int *'
+  258 | Stepper_Status_TypeDef Stepper_WaitStopped(Stepper_TypeDef *hs);
+      |                                            ~~~~~~~~~~~~~~~~~^~
+../Core/Src/main.c:250:13: error: invalid storage class for function 'MX_SPI1_Init'
+  250 | static void MX_SPI1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:288:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+  288 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:321:13: error: invalid storage class for function 'MX_GPIO_Init'
+  321 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:391:1: error: expected declaration or statement at end of input
+  391 | }
+      | ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:117:13: warning: 'MX_GPIO_Init' used but never defined
+  117 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:118:13: warning: 'MX_USART2_UART_Init' used but never defined
+  118 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:119:13: warning: 'MX_SPI1_Init' used but never defined
+  119 | static void MX_SPI1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:382:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  382 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:321:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  321 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:288:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+  288 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:250:13: warning: 'MX_SPI1_Init' defined but not used [-Wunused-function]
+  250 | static void MX_SPI1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:202:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+  202 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+20:05:19 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:174:3: error: unknown type name 'Stepper_HandleTypeDef'; did you mean 'Stepper_Mode_TypeDef'?
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |   ^~~~~~~~~~~~~~~~~~~~~
+      |   Stepper_Mode_TypeDef
+../Core/Src/main.c:174:40: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                        ^
+../Core/Src/main.c:174:40: note: (near initialization for 'motors[0]')
+../Core/Src/main.c:174:48: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                ^
+../Core/Src/main.c:174:48: note: (near initialization for 'motors[1]')
+../Core/Src/main.c:174:56: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                        ^
+../Core/Src/main.c:174:56: note: (near initialization for 'motors[2]')
+../Core/Src/main.c:174:64: warning: initialization of 'int *' from incompatible pointer type 'Stepper_TypeDef *' [-Wincompatible-pointer-types]
+  174 |   Stepper_HandleTypeDef *motors[4] = { &j1.hs, &j2.hs, &j3.hs, &j4.hs };
+      |                                                                ^
+../Core/Src/main.c:174:64: note: (near initialization for 'motors[3]')
+../Core/Src/main.c:187:32: warning: passing argument 1 of 'Stepper_MoveTo' from incompatible pointer type [-Wincompatible-pointer-types]
+  187 |           Stepper_MoveTo(motors[i], target);
+      |                          ~~~~~~^~~
+      |                                |
+      |                                int *
+In file included from ../Core/Inc/Joint.h:14,
+                 from ../Core/Src/main.c:24:
+../Core/Inc/Stepper.h:223:56: note: expected 'Stepper_TypeDef *' but argument is of type 'int *'
+  223 | Stepper_Status_TypeDef Stepper_MoveTo(Stepper_TypeDef *hs, float deg);
+      |                                       ~~~~~~~~~~~~~~~~~^~
+../Core/Src/main.c:188:41: warning: passing argument 1 of 'Stepper_WaitStopped' from incompatible pointer type [-Wincompatible-pointer-types]
+  188 |           if (Stepper_WaitStopped(motors[i]) != STEPPER_OK)
+      |                                   ~~~~~~^~~
+      |                                         |
+      |                                         int *
+../Core/Inc/Stepper.h:258:61: note: expected 'Stepper_TypeDef *' but argument is of type 'int *'
+  258 | Stepper_Status_TypeDef Stepper_WaitStopped(Stepper_TypeDef *hs);
+      |                                            ~~~~~~~~~~~~~~~~~^~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+20:05:43 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  14784	    204	   4116	  19104	   4aa0	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+20:06:54 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:109:15: warning: built-in function 'j1' declared as non-function [-Wbuiltin-declaration-mismatch]
+  109 | Joint_TypeDef j1;
+      |               ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:161:15: error: 'joint1' undeclared (first use in this function)
+  161 |   Joint_Init(&joint1, &cfg1);
+      |               ^~~~~~
+../Core/Src/main.c:161:15: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:162:15: error: 'joint2' undeclared (first use in this function)
+  162 |   Joint_Init(&joint2, &cfg2);
+      |               ^~~~~~
+../Core/Src/main.c:163:15: error: 'joint3' undeclared (first use in this function)
+  163 |   Joint_Init(&joint3, &cfg3);
+      |               ^~~~~~
+../Core/Src/main.c:164:15: error: 'joint4' undeclared (first use in this function)
+  164 |   Joint_Init(&joint4, &cfg4);
+      |               ^~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+20:07:25 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  14784	    204	   4116	  19104	   4aa0	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+20:19:09 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  14784	    204	   4116	  19104	   4aa0	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+20:22:56 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  14832	    204	   4116	  19152	   4ad0	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 
+20:24:22 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:256:13: error: invalid storage class for function 'MX_SPI1_Init'
+  256 | static void MX_SPI1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:294:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+  294 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:327:13: error: invalid storage class for function 'MX_GPIO_Init'
+  327 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:397:1: error: expected declaration or statement at end of input
+  397 | }
+      | ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:117:13: warning: 'MX_GPIO_Init' used but never defined
+  117 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:118:13: warning: 'MX_USART2_UART_Init' used but never defined
+  118 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:119:13: warning: 'MX_SPI1_Init' used but never defined
+  119 | static void MX_SPI1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:388:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  388 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:327:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  327 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:294:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+  294 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:256:13: warning: 'MX_SPI1_Init' defined but not used [-Wunused-function]
+  256 | static void MX_SPI1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:208:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+  208 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+20:24:33 **** Incremental Build of configuration Debug for project stepper_motor_test ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "stepper_motor_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Dev\Projects\STM32\stepper_motor_test\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepper_motor_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stepper_motor_test.elf
+ 
+arm-none-eabi-size  stepper_motor_test.elf 
+arm-none-eabi-objdump -h -S stepper_motor_test.elf  > "stepper_motor_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  14864	    204	   4116	  19184	   4af0	stepper_motor_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: stepper_motor_test.list
+ 

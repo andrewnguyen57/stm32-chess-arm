@@ -38,7 +38,11 @@ The firmware is five layers. Each layer speaks in one set of units and never rea
 The custom control board is built around an STM32F407 and provides
 motor-control interfaces, communication, sensing, and power distribution
 for the robotic arm.
+### Prototype Breadboard
 
+<p align="center">
+  <img src="docs/images/prototype-breadboard.jpeg" alt="Prototype Board" width="80%">
+</p>
 ### Control Board
 Rev. 2
 <p align="center">
